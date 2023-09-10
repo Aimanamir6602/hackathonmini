@@ -1,0 +1,37 @@
+.myModal{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(35, 34, 34);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+}
+.clbtn{
+    position: absolute !important;
+    right: 40px !important;
+    top: 20px !important;
+    height: 30px !important;
+    width: 30px !important;
+    color: white !important;
+    background-color: white !important;
+  
+    z-index: 2;
+}
+.coursead{
+    display: none;
+}
+.adstd{
+    display: none;
+}
+.p-c{
+    cursor: pointer !important;
+}
+.p-c:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+body{
+    min-height: 100vh !important;
+    background: rgb(241,251,0) ;
+    background: linear-gradient(90deg, rgba(241,251,0,1) 0%, rgba(141,229,49,1) 17%, rgba(0,212,255,1) 87%, rgba(19,203,108,1) 100%);
+}
